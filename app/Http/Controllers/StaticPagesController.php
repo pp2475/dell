@@ -20,4 +20,9 @@ class StaticPagesController extends Controller
     {
         return view('static_pages/about');
     }
+
+    public function HowToUseCoupon()
+    {
+        return view('static_pages/HowToUseCoupon');
+    }
 }

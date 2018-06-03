@@ -7,8 +7,8 @@
 <body>
 @include('layouts._header')
 
-    <div class="container">
-        <div class="col-md-offset-1 col-md-10">
+    <div class="container-fluid">
+        <div class="col-xs-offset-1 col-xs-10 text-left">
             @yield('content')
             @include('layouts._footer')
         </div>
